@@ -1,0 +1,34 @@
+.env
+.env.*
+!.env.example
+.venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+Backend/.coverage
+Frontend/node_modules/
+Frontend/.next/
+Frontend/out/
+Frontend/tsconfig.tsbuildinfo
+
+# Secrets
+.env
+.env.*
+!.env.example
+Backend/.env
+Frontend/.env.local
+
+# Python generated files
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+
+# Next.js generated files
+**/node_modules/
+**/.next/
+
+# PyCharm IDE settings
+.idea/
